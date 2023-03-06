@@ -19,7 +19,7 @@
         <header>
             <h1 class="site-heading text-center text-faded d-none d-lg-block">
                 <span class="site-heading-upper text-primary mb-3">TXT ALBUM</span>
-                <span class="site-heading-lower">Tomorrow by Together</span>
+                <span class="site-heading-lower">Tomorrow X Together</span>
             </h1>
         </header>
         <!-- Navigation-->
@@ -41,7 +41,7 @@
         @yield('content')
 
         <footer class="footer text-faded text-center py-5">
-            <div class="container"><p class="m-0 small">Copyright &copy; Christian Hope</p></div>
+            <div class="container"><p class="m-0 small">Kpop Bighit &copy; Tomorow by Together</p></div>
         </footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>

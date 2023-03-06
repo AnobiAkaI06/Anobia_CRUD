@@ -71,3 +71,4 @@ use Symfony\Component\HttpFoundation\Request;
 // });
 
 Route::get('/products', [ProductsController::class, 'index'])->name('products.index');
+// Route::get('/products', [ProductsController::class, 'home'])->name('products.home');
