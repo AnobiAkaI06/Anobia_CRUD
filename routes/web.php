@@ -2,8 +2,9 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProductsController;
+use App\Http\Controllers\AdminController;
 use Symfony\Component\HttpFoundation\Request;
-
+ 
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -70,5 +71,8 @@ use Symfony\Component\HttpFoundation\Request;
 //     ]);
 // });
 
-Route::get('/products', [ProductsController::class, 'index'])->name('products.index');
-// Route::get('/products', [ProductsController::class, 'home'])->name('products.home');
+Route::get('/products', [ProductsController::class, 'index'])->name('main.products');
+//  Route::get('/admin/store', [AdminController::class, 'store']);
+
+// // Route::get('/products', [ProductsController::class, 'home'])->name('products.home');
+Route::resource('/admin', AdminController::class);

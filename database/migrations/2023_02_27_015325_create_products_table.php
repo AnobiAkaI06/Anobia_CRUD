@@ -17,7 +17,7 @@ class CreateProductsTable extends Migration
             $table->id();
             $table->string('lead');
             $table->string('heading');
-            $table->string('coffee_image');
+            $table->string('album_image');
             $table->longText('desc');
             $table->timestamps();
         });
